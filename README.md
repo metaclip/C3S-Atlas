@@ -1,1 +1,3 @@
-# C3S-Atlas
+# The `c3s_terms` vocabulary for the C3S-Atlas
+
+The `c3s_terms` vocabulary defines a heterogeneous set of entities used in the [Copernicus C3S Interactive Atlas](https://atlas.climate.copernicus.eu/atlas)—including datasets, modelling centres, data providers, climate indices, and other domain‑specific resources. These entities are described as instances of the classes defined in the METACLIP core [`datasource`](https://metaclip.org/datasource/datasource.owl) ontology. The vocabulary `c3s_terms` extends this core model to provide a consistent semantic framework for describing C3S Atlas‑specific concepts and resources.
