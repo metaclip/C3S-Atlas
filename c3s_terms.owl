@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://raw.githubusercontent.com/metaclip/C3S-Atlas/refs/heads/main/c3s_terms.owl#"
-     xml:base="https://raw.githubusercontent.com/metaclip/C3S-Atlas/refs/heads/main/c3s_terms.owl"
+<rdf:RDF xmlns="https://metaclip.org/C3S-Atlas/c3s_terms.owl#"
+     xml:base="https://metaclip.org/C3S-Atlas/c3s_terms.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ds="http://www.semanticweb.org/juaco/ontologies/2026/2/untitled-ontology-12/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -80,8 +79,8 @@
         <dc:title xml:lang="en">E-OBS daily gridded meteorological data for Europe from 1950 to present derived from in-situ observations</dc:title>
         <rdfs:label>E-OBS</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1029/2008JD010201</rdfs:seeAlso>
-        <c3s_terms:cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-europe?tab=overview</c3s_terms:cdsDatasetLink>
-        <c3s_terms:cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/insitu-gridded-observations-europe?.language=en</c3s_terms:cdsProvenanceLink>
+        <cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-europe?tab=overview</cdsDatasetLink>
+        <cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/insitu-gridded-observations-europe?.language=en</cdsProvenanceLink>
     </owl:NamedIndividual>
     
 
@@ -94,8 +93,8 @@
         <rdfs:comment xml:lang="en">ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades. Data is available from 1940 onwards. ERA5 replaces the ERA-Interim reanalysis.</rdfs:comment>
         <rdfs:label>ERA5</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1002/qj.3803</rdfs:seeAlso>
-        <c3s_terms:cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview</c3s_terms:cdsDatasetLink>
-        <c3s_terms:cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/reanalysis-era5-single-levels?.language=en</c3s_terms:cdsProvenanceLink>
+        <cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview</cdsDatasetLink>
+        <cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/reanalysis-era5-single-levels?.language=en</cdsProvenanceLink>
     </owl:NamedIndividual>
     
 
@@ -110,8 +109,8 @@
         <rdfs:label xml:lang="en">ERA5-Land</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.5194/essd-13-4349-2021</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5-land</rdfs:seeAlso>
-        <c3s_terms:cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview</c3s_terms:cdsDatasetLink>
-        <c3s_terms:cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/reanalysis-era5-land?.language=en</c3s_terms:cdsProvenanceLink>
+        <cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview</cdsDatasetLink>
+        <cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/reanalysis-era5-land?.language=en</cdsProvenanceLink>
     </owl:NamedIndividual>
     
 
@@ -125,8 +124,8 @@
         <dc:title xml:lang="en">Berkeley Earth Surface Temperature Dataset</dc:title>
         <rdfs:label xml:lang="en">BERKEARTH</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.5194/essd-12-3469-2020</rdfs:seeAlso>
-        <c3s_terms:cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-global-and-regional?tab=overview</c3s_terms:cdsDatasetLink>
-        <c3s_terms:cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/insitu-gridded-observations-global-and-regional?.language=en</c3s_terms:cdsProvenanceLink>
+        <cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-global-and-regional?tab=overview</cdsDatasetLink>
+        <cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/insitu-gridded-observations-global-and-regional?.language=en</cdsProvenanceLink>
     </owl:NamedIndividual>
     
 
@@ -141,8 +140,8 @@
         <rdfs:label xml:lang="en">CERRA</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://climate.copernicus.eu/copernicus-regional-reanalysis-europe-cerra</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://confluence.ecmwf.int/display/CKB/CERRA</rdfs:seeAlso>
-        <c3s_terms:cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/reanalysis-cerra-single-levels?tab=overview</c3s_terms:cdsDatasetLink>
-        <c3s_terms:cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/reanalysis-cerra-single-levels?.language=en</c3s_terms:cdsProvenanceLink>
+        <cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/reanalysis-cerra-single-levels?tab=overview</cdsDatasetLink>
+        <cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/reanalysis-cerra-single-levels?.language=en</cdsProvenanceLink>
     </owl:NamedIndividual>
     
 
@@ -157,8 +156,8 @@
         <dc:title xml:lang="en">Climate Prediction Center Global Observational Datasets</dc:title>
         <rdfs:label xml:lang="en">CPC</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.psl.noaa.gov/data/gridded/data.cpc.globalprecip.html</rdfs:seeAlso>
-        <c3s_terms:cdsDatasetLink>https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-global-and-regional?tab=overview</c3s_terms:cdsDatasetLink>
-        <c3s_terms:cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/insitu-gridded-observations-global-and-regional?.language=en</c3s_terms:cdsProvenanceLink>
+        <cdsDatasetLink>https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-global-and-regional?tab=overview</cdsDatasetLink>
+        <cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/insitu-gridded-observations-global-and-regional?.language=en</cdsProvenanceLink>
     </owl:NamedIndividual>
     
 
@@ -173,8 +172,8 @@
         <rdfs:label xml:lang="en">ORAS5</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.5194/os-15-779-2019</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecmwf.int/en/research/climate-reanalysis/ocean-reanalysis</rdfs:seeAlso>
-        <c3s_terms:cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/reanalysis-oras5?tab=overview</c3s_terms:cdsDatasetLink>
-        <c3s_terms:cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/reanalysis-oras5?.language=en</c3s_terms:cdsProvenanceLink>
+        <cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/reanalysis-oras5?tab=overview</cdsDatasetLink>
+        <cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/reanalysis-oras5?.language=en</cdsProvenanceLink>
     </owl:NamedIndividual>
     
 
@@ -189,8 +188,8 @@
         <dc:title xml:lang="en">ESA Sea Surface Temperature Climate Change Initiative</dc:title>
         <rdfs:label xml:lang="en">SST-CCI</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1038/s41597-024-03147-w</rdfs:seeAlso>
-        <c3s_terms:cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/satellite-sea-surface-temperature-ensemble-product?tab=overview</c3s_terms:cdsDatasetLink>
-        <c3s_terms:cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/satellite-sea-surface-temperature-ensemble-product?.language=en</c3s_terms:cdsProvenanceLink>
+        <cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/satellite-sea-surface-temperature-ensemble-product?tab=overview</cdsDatasetLink>
+        <cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/satellite-sea-surface-temperature-ensemble-product?.language=en</cdsProvenanceLink>
     </owl:NamedIndividual>
 </rdf:RDF>
 
