@@ -15,7 +15,7 @@
     <owl:Ontology rdf:about="https://metaclip.org/vocab/C3S-Atlas/c3s_terms.owl">
         <owl:versionIRI rdf:resource="https://metaclip.org/vocab/C3S-Atlas/c3s_terms/0.0/c3s_terms.owl"/>
         <owl:imports rdf:resource="https://metaclip.org/vocab/metaclip/datasource/1.0.1/datasource.owl"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-09T11:01:00Z</dc:date>
+        <dc:date>2026-05-11T11:13:00Z</dc:date>
         <dc:description xml:lang="en">The c3s_terms vocabulary provides definitions for a heterogeneous set of entities used in the Copernicus C3S Interactive Atlas—including datasets, modelling centres, data providers, climate indices, and other domain‑specific resources. These entities are described as instances of the classes defined in the METACLIP core ‘datasource’ ontology, which this vocabulary extends to support the semantic representation of Atlas‑specific content.</dc:description>
         <dc:source rdf:resource="https://metaclip.org/datasource/datasource.owl#C3S"/>
         <terms:contributor>Daniel San-Martin &lt;https://orcid.org/0000-0002-2862-2704&gt;</terms:contributor>
@@ -219,7 +219,7 @@
         <dc:title xml:lang="en">ESA Sea Surface Temperature Climate Change Initiative</dc:title>
         <rdfs:label xml:lang="en">SST-CCI</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1038/s41597-024-03147-w</rdfs:seeAlso>
-        <cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/satellite-sea-surface-temperature-ensemble-product?tab=overview</cdsDatasetLink>
+        <cdsDatasetLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/datasets/satellite-sea-surface-temperature?tab=download</cdsDatasetLink>
         <cdsProvenanceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.climate.copernicus.eu/stac-browser/collections/satellite-sea-surface-temperature-ensemble-product?.language=en</cdsProvenanceLink>
     </owl:NamedIndividual>
 </rdf:RDF>
